@@ -1,0 +1,28 @@
+#nameInput {
+  line-height: 22px;
+  width: 200px;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+#characters {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#characters > * {
+  width: 120px;
+}
+
+#loader {
+  margin-top: 20px;
+}
+
+img {
+  width: 120px;
+  height: auto;
+}

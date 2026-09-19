@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokemon</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Поиск покемона</h1>
+
+    <input id="nameInput" type="text" placeholder="Введите имя покемона..." />
+
+    <button id="searchButton">Найти</button>
+
+    <div id="pokemonCard" hidden>
+      <h2 id="name"></h2>
+
+      <img id="image" alt="" />
+
+      <h3>Характеристики</h3>
+
+      <p>Вес: <span id="weight"></span></p>
+      <p>Рост: <span id="height"></span></p>
+    </div>
+
+    <div id="error" hidden>Ошибка загрузки покемона</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

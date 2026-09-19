@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+#joke {
+  margin: 20px 0;
+}
+
+#setup {
+  font-weight: bold;
+}

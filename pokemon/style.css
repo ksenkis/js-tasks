@@ -1,0 +1,18 @@
+#nameInput {
+  line-height: 22px;
+  width: 200px;
+}
+
+#searchButton {
+  height: 28px;
+  cursor: pointer;
+}
+
+#image {
+  width: 200px;
+}
+
+#error {
+  margin: 10px;
+  color: red;
+}
